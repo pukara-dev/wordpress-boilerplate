@@ -1,3 +1,35 @@
 body {
-   padding: 0;
+	background-color: #F7F3EE;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-kerning: none;
+	line-height: 1.5;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	transition: .1s linear;
+ }
+a:focus, a:hover {
+	text-decoration: none;
+}
+p {
+	overflow-wrap: normal;
+	word-break: normal;
+ }
+ol, ul {
+	 margin: 0;
+	 padding: 0;
+}
+li {
+	 list-style-type: none;
+	 font-size: 1rem;
+}
+b, strong {
+	 font-weight: 700;
+}
+blockquote, cite, em, i {
+	 font-style: italic;
 }
